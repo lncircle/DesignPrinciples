@@ -1,0 +1,322 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0D849C0920751ED200B4EA36 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C0820751ED200B4EA36 /* main.swift */; };
+		0D849C122075225B00B4EA36 /* MusicPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C112075225B00B4EA36 /* MusicPlayer.swift */; };
+		0D849C142075228000B4EA36 /* ClassicalMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C132075228000B4EA36 /* ClassicalMusic.swift */; };
+		0D849C162075229800B4EA36 /* PopularMusic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C152075229800B4EA36 /* PopularMusic.swift */; };
+		0D849C1A2075264000B4EA36 /* Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C192075264000B4EA36 /* Music.swift */; };
+		0D849C1C2075276E00B4EA36 /* Classical_Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C1B2075276E00B4EA36 /* Classical_Music.swift */; };
+		0D849C1E2075278600B4EA36 /* Popular_Music.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C1D2075278600B4EA36 /* Popular_Music.swift */; };
+		0D849C202075279C00B4EA36 /* MuSic_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0D849C1F2075279C00B4EA36 /* MuSic_Player.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0D849C0320751ED200B4EA36 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		0D849C0520751ED200B4EA36 /* 开闭原则 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "开闭原则"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0D849C0820751ED200B4EA36 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		0D849C112075225B00B4EA36 /* MusicPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayer.swift; sourceTree = "<group>"; };
+		0D849C132075228000B4EA36 /* ClassicalMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClassicalMusic.swift; sourceTree = "<group>"; };
+		0D849C152075229800B4EA36 /* PopularMusic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopularMusic.swift; sourceTree = "<group>"; };
+		0D849C192075264000B4EA36 /* Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Music.swift; sourceTree = "<group>"; };
+		0D849C1B2075276E00B4EA36 /* Classical_Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classical_Music.swift; sourceTree = "<group>"; };
+		0D849C1D2075278600B4EA36 /* Popular_Music.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Popular_Music.swift; sourceTree = "<group>"; };
+		0D849C1F2075279C00B4EA36 /* MuSic_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MuSic_Player.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0D849C0220751ED200B4EA36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D849BFC20751ED200B4EA36 = {
+			isa = PBXGroup;
+			children = (
+				0D849C0720751ED200B4EA36 /* 开闭原则 */,
+				0D849C0620751ED200B4EA36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0D849C0620751ED200B4EA36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0D849C0520751ED200B4EA36 /* 开闭原则 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0D849C0720751ED200B4EA36 /* 开闭原则 */ = {
+			isa = PBXGroup;
+			children = (
+				0D849C10207521FD00B4EA36 /* 修改后 */,
+				0D849C0F207521F800B4EA36 /* 修改前 */,
+				0D849C0820751ED200B4EA36 /* main.swift */,
+			);
+			path = "开闭原则";
+			sourceTree = "<group>";
+		};
+		0D849C0F207521F800B4EA36 /* 修改前 */ = {
+			isa = PBXGroup;
+			children = (
+				0D849C112075225B00B4EA36 /* MusicPlayer.swift */,
+				0D849C132075228000B4EA36 /* ClassicalMusic.swift */,
+				0D849C152075229800B4EA36 /* PopularMusic.swift */,
+			);
+			path = "修改前";
+			sourceTree = "<group>";
+		};
+		0D849C10207521FD00B4EA36 /* 修改后 */ = {
+			isa = PBXGroup;
+			children = (
+				0D849C192075264000B4EA36 /* Music.swift */,
+				0D849C1B2075276E00B4EA36 /* Classical_Music.swift */,
+				0D849C1D2075278600B4EA36 /* Popular_Music.swift */,
+				0D849C1F2075279C00B4EA36 /* MuSic_Player.swift */,
+			);
+			path = "修改后";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0D849C0420751ED200B4EA36 /* 开闭原则 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0D849C0C20751ED200B4EA36 /* Build configuration list for PBXNativeTarget "开闭原则" */;
+			buildPhases = (
+				0D849C0120751ED200B4EA36 /* Sources */,
+				0D849C0220751ED200B4EA36 /* Frameworks */,
+				0D849C0320751ED200B4EA36 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "开闭原则";
+			productName = "开闭原则";
+			productReference = 0D849C0520751ED200B4EA36 /* 开闭原则 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0D849BFD20751ED200B4EA36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0920;
+				LastUpgradeCheck = 0920;
+				ORGANIZATIONNAME = FY;
+				TargetAttributes = {
+					0D849C0420751ED200B4EA36 = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 0D849C0020751ED200B4EA36 /* Build configuration list for PBXProject "开闭原则" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 0D849BFC20751ED200B4EA36;
+			productRefGroup = 0D849C0620751ED200B4EA36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0D849C0420751ED200B4EA36 /* 开闭原则 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D849C0120751ED200B4EA36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D849C142075228000B4EA36 /* ClassicalMusic.swift in Sources */,
+				0D849C1E2075278600B4EA36 /* Popular_Music.swift in Sources */,
+				0D849C202075279C00B4EA36 /* MuSic_Player.swift in Sources */,
+				0D849C1C2075276E00B4EA36 /* Classical_Music.swift in Sources */,
+				0D849C162075229800B4EA36 /* PopularMusic.swift in Sources */,
+				0D849C1A2075264000B4EA36 /* Music.swift in Sources */,
+				0D849C122075225B00B4EA36 /* MusicPlayer.swift in Sources */,
+				0D849C0920751ED200B4EA36 /* main.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		0D849C0A20751ED200B4EA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0D849C0B20751ED200B4EA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+			};
+			name = Release;
+		};
+		0D849C0D20751ED200B4EA36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		0D849C0E20751ED200B4EA36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0D849C0020751ED200B4EA36 /* Build configuration list for PBXProject "开闭原则" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D849C0A20751ED200B4EA36 /* Debug */,
+				0D849C0B20751ED200B4EA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0D849C0C20751ED200B4EA36 /* Build configuration list for PBXNativeTarget "开闭原则" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0D849C0D20751ED200B4EA36 /* Debug */,
+				0D849C0E20751ED200B4EA36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0D849BFD20751ED200B4EA36 /* Project object */;
+}
